@@ -1,0 +1,38 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 70px;
+  width: 100%;
+  background-color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  border-radius: 15%;
+  background-color: #333;
+  color: red;
+}
+header:hover {
+  background: linear-gradient(270deg, #672280 0.1%, #a626d3 100%);
+}
